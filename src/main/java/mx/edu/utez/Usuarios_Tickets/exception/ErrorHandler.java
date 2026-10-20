@@ -1,7 +1,7 @@
 package mx.edu.utez.Usuarios_Tickets.exception;
 
-import mx.edu.utez.Usuarios_Tickets.exception.customException.BadRequestException;
-import mx.edu.utez.Usuarios_Tickets.exception.customException.ResourceNotFoundException;
+import mx.edu.utez.Usuarios_Tickets.exception.CustomException.BadRequestException;
+import mx.edu.utez.Usuarios_Tickets.exception.CustomException.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
